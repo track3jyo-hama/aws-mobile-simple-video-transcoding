@@ -2,11 +2,9 @@
 
 This project includes extensions to an AWS Mobile Hub project. These add capabilities to your Mobile App or Website.
 
-This extension adds automatic video transcoding of uploaded videos to adaptive multi-bitrate formats. When your mobile app users upload video files to the "userfiles" Amazon S3 bucket of your AWS Mobile Hub backend, the files will automatically be transcoded to HLS (HTTP Live Streaming) format, and they will be placed in the "hosting" Amazon S3 bucket. Your Amazon CloudFront distribution will stream the video files in the downlink direction to devices using adaptive multi-bitrate protocols in order to reduce bandwidth, reduce buffering, and optimize the user experience in watching the videos.
+This extension adds automatic video transcoding of uploaded videos to adaptive multi-bitrate formats. When your mobile app users upload video files to the "userfiles" Amazon S3 bucket, the files will automatically be transcoded to HLS (HTTP Live Streaming) format, and they will be placed in the "hosting" Amazon S3 bucket. Your Amazon CloudFront distribution will stream the video files in the downlink direction to devices using adaptive multi-bitrate protocols in order to reduce bandwidth, reduce buffering, and optimize the user experience in watching the videos.
 
 ![image](readme-images/architecture.png?raw=true)
-
-This project includes a demo Android Mobile App project which uploads video files and plays the transcoded videos and a demo website which also plays the video files.
 
 ## Requirements
 
