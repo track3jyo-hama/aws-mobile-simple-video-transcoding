@@ -41,7 +41,7 @@ It should output something like this.
 #### Create Custom IAM Policy
 
 Launch a browser window with the following link:
-- [AWS IAM - Create Custom Policy - https://console.aws.amazon.com/iam/home?region=us-east-1#/policies$new](https://console.aws.amazon.com/iam/home?region=us-east-1#/policies$new)
+- [AWS IAM - Create Custom Policy - https://console.aws.amazon.com/iam/home?region=ap-northeast-1#/policies$new](https://console.aws.amazon.com/iam/home?region=ap-northeast-1#/policies$new)
 
 Select 'Create Your Own Policy'.
 
